@@ -71,6 +71,6 @@ def get_score():
 
     return jsonify({"error": "Provider not found"}), 404  # Return error if provider not found
 
-# if __name__ == '__main__':
-#     # app.run(debug=True)
-#     app.run()
+if __name__ == '__main__':
+     # app.run(debug=True)
+    app.run()
